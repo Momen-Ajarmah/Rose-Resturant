@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+ul {
+    list-style-type: none;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+/* cart */
+.cart{
+    background-color:  whitesmoke;
+    color:black ;
+    font-size:x-large;
+    position: fixed;
+    top: 30%;
+    right: 0%;
+    z-index: 9999;
+    box-shadow: 0px 0px 7px 4px gray;
+    padding: 10px;
+}
+
+/* navbar  */
+.logoImg{
+    width: 6%;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.h-l{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+}
+.navbar-brand{
+    font-size: 35px;
+}
+.collapse{
+    font-size: 20px;
+}
+/* header */
+.header-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: .8;
+}
+
+
+.slide-p{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: xx-large;
+    color:whitesmoke;
+    
+}
+.slide-p h2{
+    font-size: 100px;
+}
+.slide-input{
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    
+}
+/* about us  */
+.about-us-p{
+    margin: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-us-p p{
+    width: 60%;
+}
+.about-us-items{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.about-us-items img{
+    width: 50%;
+}
+.about-us-items-p{
+    width: 50%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* footer */
+footer{
+    background-color:whitesmoke;
+    color: black;
+    
+}
+.our-info{
+    
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    
+}
+.copy-rights{
+    text-align: center;
+}
+.copy-rights p{
+    margin-bottom: 0rem;
+    padding-bottom: 10px;
+}
+/* cart */
+.cart-body{
+    background-color: white;
+    color: black;
+   
+}
+.cart-header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.head-page{
+    text-align: center;
+
+    
+}
+.your-order{
+    background-color: rgb(238, 238, 238);
+    width: 50%;
+}
+.price-pay{
+    width: 50%;
+}
+.cart-back{
+    font-size: xx-large;
+    padding-right: 10px;
+} 
+.pay-way1 p{
+margin: 0%;
+margin-left: 3px;
+}
+.order-items{
+    width: 50%;
+    
+}
+.orderItem img{
+width: 50%;
+}
+.orderItem p {
+    width: 35%;
+}
+
+.orderItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(248, 248, 248);
+    background-color: rgb(227, 227, 227);
+    border-radius: 3%;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
