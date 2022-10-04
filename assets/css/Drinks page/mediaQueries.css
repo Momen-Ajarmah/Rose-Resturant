@@ -1,0 +1,53 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Love+Ya+Like+A+Sister&display=swap');
+/* font-family: 'Allison', cursive;
+font-family: 'Love Ya Like A Sister', cursive; */
+:root{
+    --myWhite: rgb(255,255,255);
+}
+@media (max-width: 576px) { 
+    /* start nav */
+    /* end nav */
+    /* start header */
+        .header{
+            height: 80vh;
+        }
+        .header .main-titel{
+            font-size: 5rem;
+        }
+    /* end header */
+    /* start menu */
+    .menu .item{
+        margin: 2rem 0;
+    }
+    /* end menu */
+ }
+ @media (max-width: 992px) { 
+    .navbar .navbar-toggler{
+        display: flex;
+    }
+  }
+  @media (min-width: 700px) and (max-width: 992px) { 
+    .menu img{
+        height: 12rem;
+    }
+   }
+
+

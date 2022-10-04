@@ -1,0 +1,217 @@
+/* ---------------------------------------start public--------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Bebas+Neue&family=Love+Ya+Like+A+Sister&family=Pacifico&family=Rubik+Dirt&display=swap');
+/* font-family: 'Allison', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Rubik Dirt', cursive; */
+:root{
+    --myWhite: rgb(255,255,255);
+    --titel-color: #ADBDC9;
+}
+/* ---------------------------------------end public--------------------------------------- */
+/* ---------------------------------------start navbar----------------------------------------- */
+.navbar{
+    font-family: 'Love Ya Like A Sister'; 
+    /* background-image: url('../../images/Drinks page/h3-rev-background-img-2.jpg'); */
+}
+.navbar .navbar-brand{
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--myWhite);
+}
+.navbar .collapse .btn{
+    outline-style: solid ;
+    outline-color: var(--myWhite) ;
+    outline-width: .05rem;
+    color: var(--myWhite);
+    font-size: 1.2rem;
+
+}
+.navbar .collapse .form-control{
+    background-color: transparent;
+}
+.navbar .collapse .form-control::placeholder{
+    color: var(--myWhite);
+}
+.navbar .collapse .form-control:focus{
+    box-shadow: 0 0 0 0 transparent;
+    border-color: var(--myWhite);
+}
+.navbar .collapse .nav-link{
+    color: var(--myWhite);
+    font-size: 1.2rem;
+    position: relative;
+    width: fit-content;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left:  .5rem;
+    margin-right: .5rem;
+}
+.navbar .collapse .nav-link::before{
+    content: '';
+    width: 0%;
+    height: .1rem;
+    background-color: var(--myWhite);
+    border-radius: .375rem;
+    -webkit-border-radius: .375rem;
+    -moz-border-radius: .375rem;
+    -ms-border-radius: .375rem;
+    -o-border-radius: .375rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.navbar .collapse .nav-link:hover::before{
+    width: 100%;
+}
+.navbar .navbar-toggler{
+    border-color: var(--myWhite);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    display: none;
+}
+.navbar .navbar-toggler:focus{
+    outline-width: 0;
+    border-width: 0;
+    color: var(--myWhite);
+}
+.navbar-toggler-myicon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: .75rem .25rem .25rem .25rem;
+}
+.navbar-toggler-myicon .line{
+    color: var(--myWhite);
+    width: 2rem;
+    height: .1rem;
+    background-color: var(--myWhite);
+    margin-bottom: .5rem;
+}
+
+/* ---------------------------------------end navbar------------------------------------------- */
+/* ---------------------------------------strat header------------------------------------------- */
+.header{
+    background-image: url('../../images/Drinks page/h3-rev-background-img-2.jpg');
+    color: var(--myWhite);
+    font-family: 'Allison', cursive;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+}
+.header .main-titel{
+    font-size: 10rem;
+}
+/* ---------------------------------------end header------------------------------------------- */
+/* ---------------------------------------start menu------------------------------------------- */
+.menu .main-titel{
+    padding: 5rem 0 2rem 0;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Rubik Dirt', cursive;
+    letter-spacing: .4rem;
+}
+.menu .sub-titel{
+    text-align: center;    
+    color: var(--titel-color);
+    font-family: 'Allison', cursive;
+    font-size: 3rem;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+/* sub titel line */
+.menu .sub-titel::after,.menu .sub-titel::before{
+    content: '';
+    background-color: var(--titel-color);
+    height: .1rem;
+    width: 3rem;
+    position: absolute;
+    top: 60%;
+    border-radius: 50rem;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+}
+.menu .sub-titel::after{
+    right: -50%;
+}
+.menu .sub-titel::before{
+    left: -50%;
+}
+.menu .item{
+    margin: 4rem 0;
+    position: relative;
+    overflow: hidden;
+}
+.menu img{
+    width: 100%;
+    height: 15rem;
+    border-radius: .375rem;
+    -webkit-border-radius: .375rem;
+    -moz-border-radius: .375rem;
+    -ms-border-radius: .375rem;
+    -o-border-radius: .375rem;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.menu .item .itemInfo{
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(43 226 182 / 90%);
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+    border-radius: .375rem;
+    -webkit-border-radius: .375rem;
+    -moz-border-radius: .375rem;
+    -ms-border-radius: .375rem;
+    -o-border-radius: .375rem;
+    color: var(--myWhite);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15%;
+    opacity: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}.menu .item:hover .itemInfo{
+    bottom: 10%;
+    opacity: 1;
+}
+.menu .item:hover img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+/* ---------------------------------------end menu------------------------------------------- */
+/* ---------------------------------------start footer------------------------------------------- */
+.footer{
+    background-image: url('../../images/Drinks page/footerbackground.jpg');
+    padding: 3rem 0;
+}
+.copyright{
+    margin: 0;
+    color: var(--myWhite);
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+/* ---------------------------------------end footer------------------------------------------- */
