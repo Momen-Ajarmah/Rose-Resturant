@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Dirt&display=swap');
+
+.navbar-brand{
+    font-family: Rubik Dirt;
+    letter-spacing: 2px;
+    color:white;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: great-vibes;
+    font-size: 1.5rem;
+    color: white;  
+}
+
+/* .header .overlay {
+    background:linear-gradient(to bottom, rgba(173, 173, 149, 0.8) 0%, rgba(214, 211, 207, 0.8) 100%);
+   height: 100%;
+} */
+.header{
+    background-image: url('../../images/dessert page/cake.webp');
+    background-size: cover;
+    height: 100vh; 
+  
+    
+}
+.navbar {
+    
+    position: fixed;
+    width: 100%;
+    background-image:linear-gradient(to right,  #ffb88c,#bea1a1  );
+    z-index: 1;
+}
+.tittle{
+    font-family: Rubik Dirt;
+    letter-spacing: 3px;
+    font-size: 60px;
+    margin-top: 80px;
+    margin-right: 250px;
+    margin-left: 300px;
+}
+.head-icon{
+    font-size: 75px;
+    margin-top: 150px;
+    margin-left: 80px;
+   
+  
+}
+
+
+.head-icon a{
+    color:white ;
+    background-color: #ffb88c;
+    padding: 18px;
+    border-radius: 60%;
+}
+.head-icon2{
+    font-size: 75px;
+    margin-top: 80px;
+    margin-left: 80px;
+   
+}
+.head-icon2 a{
+    color:white ;
+}
+.icon-effect{
+    opacity: 0;
+    animation: text-opacity 3s;
+    animation-fill-mode: forwards;
+   
+}
+@keyframes text-opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.cake-box{
+    position: relative;
+}
+
+.cake-box i{
+    color:white;
+    background-color: red;
+    padding: 17px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+  h2{
+    font-family: Rubik Dirt;
+    letter-spacing: 3px;
+    font-size: 60px;
+   margin-left: 450px;
+   margin-top: 500px;  
+
+}
+.cake-box h3{
+    font-family: great-vibes;
+    text-align: center;
+
+}
+.cake-box p{
+    font-size: 1.5rem;
+    font-family: great-vibes;
+    color: black;
+}
+.header1{
+    border-style: solid;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-color: #bea1a1;
+    
+
+}
+.para{
+    border-style: double;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+.cake-box{
+    cursor: pointer;
+}
+
+.cake-box .para{
+    transition: 0.5s;
+    background-color:#bea1a1;
+    margin-top: 30p;
+    opacity: 0;
+
+}
+.cake-box:hover .para{
+    margin-top: 10px;
+    opacity: 1;
+}
+.cake-box:hover i{
+    margin-top: 10px;
+    
+
+}
