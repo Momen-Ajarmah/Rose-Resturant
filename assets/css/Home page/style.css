@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: gray;
+    color:gray;
 }
 /* cart */
 .cart{
@@ -31,24 +31,8 @@ a:hover{
 }
 
 /* navbar  */
-.logoImg{
-    width: 6%;
-}
-.navbar{
-    position: fixed;
-    width: 100%;
-}
-.h-l{
-    height: 70px;
-    display: flex;
-    align-items: center;
-    font-size: 100px;
-}
-.navbar-brand{
-    font-size: 35px;
-}
-.collapse{
-    font-size: 20px;
+.navbar-toggler{
+    color: black;
 }
 /* header */
 .header-image{
@@ -94,6 +78,9 @@ a:hover{
     align-items: center;
     
     
+}
+.our-chef{
+    flex-direction: row-reverse;
 }
 .about-us-items img{
     width: 50%;
@@ -179,3 +166,100 @@ width: 50%;
     align-items: center;
 }
 
+/* media query */
+
+@media  screen and (min-width :320px) and (max-width:480px)  {
+    /* header */
+    .slide-p{
+        font-size: large;
+        top: 43%;
+    }
+    .slide-p h2{
+        font-size: x-large;
+    }
+    .slide-input{
+        left: 13%;
+        
+    }
+    .slideBtn{
+        font-size: small;
+        
+    }
+    /* end header */
+
+    /* start about us  */
+    .about-us-p{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .about-us-items{
+        width: 100%;
+        display: block;
+    }
+    .about-us-items-p{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    .about-us-items img{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    /* end header  */
+    /* footer */
+
+    footer h3{
+        font-size: medium;
+    }
+    footer ul{
+        font-size: small;
+        padding: 0px;
+    }
+
+    .contact-with{
+        width: 33%;
+    }
+    .contact-with h3{
+        width: 100%;
+    }
+    .contact-with ul{
+        margin: 0px;
+        padding: 0px;
+       }
+    .social-media{
+        width: 33%;
+    }
+    .location{
+        width: 33%;
+    }
+}
+
+@media  screen and (min-width :481px) and (max-width:834px){
+    /* header */
+    .slide-p{
+        top: 40%;
+    }
+    
+    .slide-p h2{
+        font-size: 55px;
+    }
+    .slide-input{
+        left: 25%;
+    }
+    /* end header */
+
+    /* start about us  */
+    .about-us-p{
+        margin: 100px;
+    }
+    /* end about us  */ 
+}
+
+@media  screen and (min-width :831px) and (max-width:1280px){
+    .slide-input{
+        left: 35%;
+    }
+
+}
