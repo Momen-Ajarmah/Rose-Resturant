@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+body{
+    font-family: 'Cairo', sans-serif;
+    overflow-x: hidden;
+   
+}
+.navbar{
+background-color:  #78a091;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+ul li a:hover{
+    background-color: #000;
+    color: #506f63;
+}
+.navbar-brand:hover{
+    background-color: #000;
+    color: #506f63;
+} 
+ul li{
+    list-style-type: none;
+}
+header h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hr1{
+    border-top: 7px solid  #171b19;
+    width: 40%;
+}
+.hr2{
+    border-top: 7px solid #171b19;
+    width: 45%;
+}
+header .part2 img{
+    margin-right: 36px;
+    width: 39%!important;
+}
+.par1 img{
+    width: 100%;
+}
+.par1 button{
+    margin-left: 30%;
+}
