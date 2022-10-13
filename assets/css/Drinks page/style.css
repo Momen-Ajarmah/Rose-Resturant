@@ -192,17 +192,18 @@ font-family: 'Rubik Dirt', cursive; */
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
-}.menu .item:hover .itemInfo{
+}
+/* .menu .item:hover .itemInfo{
     bottom: 10%;
     opacity: 1;
-}
-.menu .item:hover img{
+} */
+/* .menu .item:hover img{
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
-}
+} */
 /* ---------------------------------------end menu------------------------------------------- */
 /* ---------------------------------------start footer------------------------------------------- */
 .footer{
@@ -215,3 +216,6 @@ font-family: 'Rubik Dirt', cursive; */
     font-family: 'Love Ya Like A Sister', cursive;
 }
 /* ---------------------------------------end footer------------------------------------------- */
+button{
+    background-color: slategrey !important;
+}
