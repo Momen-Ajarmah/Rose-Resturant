@@ -1,25 +1,14 @@
-var price = document.querySelector(".price");
-var pastaName = document.querySelector(".pastaName");
-var pastaImg = document.querySelector(".pastaImg");
-var addBtn = document.querySelector(".addBtn");
+let itemName = document.querySelector(".itemName");
+let itemPrice = document.querySelector(".itemPrice");
+let itemDesc = document.querySelector(".itemDesc");
 
-var allOrders=[]
-
- addBtn.onclick = function(){
-    addorder();
-    // alert("hhh");
-   
-}
-
-function addorder(){
-        var order={
-        name:pastaName.innerHTML,
-        price:price.innerHTML,
-        // img:pastaImg.src
+let items = [];
+function addItem (){
+    let item ={
+        name:itemName.innerHTML,
+        price:itemPrice.innerHTML,
+        desc:itemDesc.innerHTML
     };
-    allOrders.push(order);
-    localStorage.setItem("orderList",JSON.stringify(allOrders));
+    items.push(item);
+    localStorage.setItem("itemsList",JSON.stringify(items));
 }
-
-
-console.log(orderList);
